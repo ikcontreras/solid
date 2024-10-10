@@ -1,0 +1,68 @@
+# Dependencias de Node.js
+node_modules/
+
+# Directorios de salida
+dist/
+build/
+out/
+
+# Archivos de logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos temporales
+temp/
+tmp/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.development
+.env.production
+.env.test
+
+# Información de compilación de TypeScript
+*.tsbuildinfo
+
+# Cobertura de pruebas
+coverage/
+
+# Paquetes
+*.tgz
+
+# Cachés
+.cache/
+.parcel-cache/
+
+# Archivos de módulos nativos
+*.node
+
+
+# Archivos de bloqueo (opcional, dependiendo de tu flujo de trabajo)
+# Si deseas asegurar versiones consistentes, puedes excluir estas líneas
+# package-lock.json
+# yarn.lock
+
+# Directorios y archivos de IDEs
+# Configuración de WebStorm
+.idea/
+# Configuración de Visual Studio Code
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Otros
+*.swp
+*.bak
+*.tmp
+*.old
+
+# Archivos de configuración personal
+# Archivos de módulo de IntelliJ IDEA
+*.iml
