@@ -22,7 +22,6 @@ tmp/
 Thumbs.db
 
 # Archivos de entorno
-.env
 .env.development
 .env.production
 .env.test

@@ -1,8 +1,10 @@
 import { ServerUp } from './factory/server';
-import { createUserApi } from './api/user';
-import { createDevicesApi } from './api/devices';
+import { UserController } from './api/user/user.controller';
+import { MockDatabase } from './utils/JsonFileReader';
+import { DevicesController } from './api/devices/devices.controller';
 
 const server = new ServerUp();
 
-createUserApi(server.app);
-createDevicesApi(server.app);
+new UserController(server.app, MockDatabase)
+new DevicesController(server.app, MockDatabase);
+
