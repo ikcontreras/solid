@@ -1,0 +1,133 @@
+[
+  {
+    "id": "hydrant-001",
+    "name": "Hydrant Flow Meter",
+    "type": "flow_meter",
+    "location": {
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "address": "123 Main St, New York, NY"
+    },
+    "status": "active",
+    "user_id": 1,
+    "last_maintenance": "2024-08-15",
+    "specs": {
+      "manufacturer": "HydroTech",
+      "model": "HT-100",
+      "max_flow_rate": "500 L/min",
+      "battery_life": "5 years",
+      "connectivity": "4G LTE"
+    },
+    "readings": {
+      "last_flow_rate": "300 L/min",
+      "pressure": "5 bar",
+      "timestamp": "2024-10-11T14:00:00Z"
+    },
+    "firmwareVersion": "001"
+  },
+  {
+    "id": "hydrant-002",
+    "name": "Hydrant Pressure Sensor",
+    "type": "pressure_sensor",
+    "location": {
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "address": "456 Sunset Blvd, Los Angeles, CA"
+    },
+    "status": "active",
+    "user_id": 2,
+    "last_maintenance": "2024-09-20",
+    "specs": {
+      "manufacturer": "AquaMeasure",
+      "model": "AM-200",
+      "pressure_range": "0-10 bar",
+      "battery_life": "7 years",
+      "connectivity": "WiFi"
+    },
+    "readings": {
+      "last_pressure": "4.5 bar",
+      "flow_rate": "350 L/min",
+      "timestamp": "2024-10-11T13:30:00Z"
+    },
+    "firmwareVersion": "001"
+  },
+  {
+    "id": "hydrant-003",
+    "name": "Hydrant Flow & Pressure Combo",
+    "type": "combo_meter",
+    "location": {
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "address": "789 Piccadilly, London, UK"
+    },
+    "status": "inactive",
+    "user_id": 3,
+    "last_maintenance": "2024-07-10",
+    "specs": {
+      "manufacturer": "FlowGuard",
+      "model": "FG-500",
+      "max_flow_rate": "600 L/min",
+      "pressure_range": "0-8 bar",
+      "battery_life": "6 years",
+      "connectivity": "LoRaWAN"
+    },
+    "readings": {
+      "last_flow_rate": "400 L/min",
+      "pressure": "6 bar",
+      "timestamp": "2024-10-10T10:00:00Z"
+    },
+    "firmwareVersion": "001"
+  },
+  {
+    "id": "hydrant-004",
+    "name": "Hydrant Flow Meter",
+    "type": "flow_meter",
+    "location": {
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "address": "101 Rue de Paris, Paris, France"
+    },
+    "status": "active",
+    "user_id": 4,
+    "last_maintenance": "2024-09-01",
+    "specs": {
+      "manufacturer": "HydroFlow",
+      "model": "HF-300",
+      "max_flow_rate": "550 L/min",
+      "battery_life": "6 years",
+      "connectivity": "5G"
+    },
+    "readings": {
+      "last_flow_rate": "320 L/min",
+      "pressure": "4.8 bar",
+      "timestamp": "2024-10-11T12:45:00Z"
+    },
+    "firmwareVersion": "001"
+  },
+  {
+    "id": "hydrant-005",
+    "name": "Hydrant Pressure Sensor",
+    "type": "pressure_sensor",
+    "location": {
+      "latitude": 35.6895,
+      "longitude": 139.6917,
+      "address": "250 Tokyo St, Tokyo, Japan"
+    },
+    "status": "active",
+    "user_id": 5,
+    "last_maintenance": "2024-10-01",
+    "specs": {
+      "manufacturer": "AquaMonitor",
+      "model": "AM-500",
+      "pressure_range": "0-12 bar",
+      "battery_life": "8 years",
+      "connectivity": "NB-IoT"
+    },
+    "readings": {
+      "last_pressure": "5.2 bar",
+      "flow_rate": "370 L/min",
+      "timestamp": "2024-10-11T09:15:00Z"
+    },
+    "firmwareVersion": "001"
+  }
+]

@@ -10,18 +10,28 @@
     "start:dev": "cross-env NODE_ENV=development ts-node src/index.ts",
     "start:prod": "cross-env NODE_ENV=production node build/index.js",
     "start:test": "cross-env NODE_ENV=test ts-node src/index.ts",
+    "format": "prettier --write .",
     "test": "cross-env NODE_ENV=test mocha --recursive --require ts-node/register tests/**/*.ts"
+  },
+  "_moduleAliases": {
+    "@api": "build/api",
+    "@utils": "build/utils"
   },
   "dependencies": {
     "dotenv-flow": "^4.1.0",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "module-alias": "^2.2.3"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/express": "^5.0.0",
+    "@types/module-alias": "^2.0.4",
     "@types/node": "^22.7.5",
     "cross-env": "^7.0.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   },
