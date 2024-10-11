@@ -1,4 +1,4 @@
-import { Device } from '../api/devices';
+import { Device } from '../api/devices/devices.model';
 
 /**
  * DEPENDENCY INVERSION PRINCIPLE (DIP)

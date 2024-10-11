@@ -1,4 +1,4 @@
-import { Device } from '../api/devices';
+import { Device } from '../api/devices/devices.model';
 
 /**
  * INTERFACE SEGREGATION PRINCIPLE (ISP)
@@ -13,16 +13,9 @@ import { Device } from '../api/devices';
  */
 
 interface FlowMeterDevice extends Device {
-  specs: {
-    manufacturer: string;
-    model: string;
-    max_flow_rate: string;
-    pressure_range?: string; // Optional property
-    battery_life: string;
-    connectivity: string;
-  };
+  max_flow_rate: string;
 }
 
 export function logFlowRate(device: FlowMeterDevice): void {
-  console.log(`${device.name} has a maximum flow rate of ${device.specs.max_flow_rate}`);
+  console.log(`${device.name} has a maximum flow rate of ${device.max_flow_rate}`);
 }
